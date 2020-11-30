@@ -1,0 +1,19 @@
+{
+  "name": "mtarld/composer-vendor-scraper",
+  "require": {
+    "php": ">=7.1",
+    "symfony/console": "^5.2",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "symfony/finder": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "scripts": {
+    "build-phar": "php create-phar.php"
+  }
+}
