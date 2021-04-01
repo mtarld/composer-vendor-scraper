@@ -17,14 +17,14 @@ that just works and that you'll be able to modify according to your needs.
 ### Installation
 You can easily install Composer vendor scraper using `curl`:
 ```
-$ curl -o- https://raw.githubusercontent.com/mtarld/composer-vendor-scaper/master/bin/composer-vendor-scraper.phar > composer-vendor-scraper.phar
+$ curl -o- https://raw.githubusercontent.com/mtarld/composer-vendor-scraper/master/bin/composer-vendor-scraper.phar > composer-vendor-scraper.phar
 ```
 
 ### Usage
 Once the command installed, you could use it that way:
 
 ```bash
-$ php composer-vendor-scaper.phar
+$ php composer-vendor-scraper.phar
 
 Description:
   Recreate a composer.json file from a vendor directory
@@ -121,9 +121,9 @@ Vendor scrapper
  ----------------- ---------- 
   Name              Version   
  ----------------- ---------- 
-  symfony/console   ^5.2.0.0  
-  symfony/finder    ^5.2.0    
-  symfony/string    ^5.2      
+  symfony/console   ~5.2.0.0  
+  symfony/finder    ~5.2.0    
+  symfony/string    ~5.2      
  ----------------- ---------- 
 
  Proceed? (yes/no) [yes]:
