@@ -50,7 +50,7 @@ class Package
         $versionParts = array_splice($versionParts, 0, $strategyOffsetMap[$strategy]);
 
         if (1 !== count($versionParts)) {
-            $this->version = ('fixed' === $strategy ? '' : '^').implode('.', $versionParts);
+            $this->version = ('fixed' === $strategy ? '' : '~').implode('.', $versionParts);
         }
 
         return $this;
